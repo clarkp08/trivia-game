@@ -3,18 +3,18 @@ html {
 }
 
 body {
-	background: url(../images/inception.jpg) no-repeat center center fixed;
+	background: url(../images/interstellar.png) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	font-family: 'Artifika', serif;
 }
 
 .jumbotron {
 	text-align: center;
 	margin-top: 10%;
 	background: #eee;
-	border: 15px ridge red;
 }
 
 .answer-choices {
@@ -24,6 +24,6 @@ body {
 }
 
 .answer-choices:hover {
-	background: red;
-	color: white;
+	background: yellow;
+	color: black;
 }
